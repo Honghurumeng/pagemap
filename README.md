@@ -2,9 +2,11 @@
 
 这是一个能快速为你的网页中的 dom 内容生成小地图的组件，使用 querySelector，默认使用 dom 背景色，可以进行拖拽以滚动页面。
 
+This is a component that can quickly generate a mini map for the dom content in your webpage. It uses querySelector and defaults to the dom background color, allowing for drag and drop to scroll the page.
+
 <img src="./assets/截屏2024-06-21%2010.02.45.png" width="200" height="120">
 
-## Usage
+## 用例 Usage
 
 CSS
 
@@ -56,11 +58,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 ```
 
-## 刷新
+## 刷新 Refresh
 
 有两种方式：
 
-一种是设置 styles.interval （单位：ms），minimap 就会进行自动刷新
+一种是设置 styles.interval （单位：ms），minimap 就会进行自动刷新：
 
 ```javascript
 if (settings.interval > 0) {
